@@ -1,0 +1,90 @@
+/* Sidebar*/
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 250px;
+    height: 250%;
+    overflow-y: hidden;
+    background: linear-gradient(75deg,skyblue,darkblue);
+    border-right: 1px solid;
+    opacity: 0.9;
+    
+}
+.sidebar-nav{
+    margin-top: 45%;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left: 0px;
+}
+.sidebar-nav li{
+    text-indent: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+.sidebar-nav li a{
+   display: block;
+   text-decoration: none;
+   color: white;
+   
+}
+.header{
+    left: 10px;
+}
+
+/* Navbar */
+.navbar {
+    top: -600px;
+
+}
+
+@media only screen and (max-width:768px) {
+    /*Jumbotron*/
+    .jumbotron{
+        height: -600px;
+    }
+    /*Sidebar*/
+
+    #sidebar-wrapper {
+        width: 0;
+        background: white;
+    }
+
+    /*Navbar*/
+    .navbar{
+        top:0px;
+        background:linear-gradient(skyblue,darkblue)
+    }
+    .fa-1x {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler.toggler-example {
+        cursor: pointer;
+    }
+    #side-to-nav{
+        background: linear-gradient(175deg,darkblue,skyblue);
+        border: 0;
+    }
+    /* .dark-blue-text {
+        color: #0A38F5;
+    }
+
+    .dark-pink-text {
+        color: #AC003A;
+    }
+
+    .dark-amber-text {
+        color: #ff6f00;
+    }
+
+    .dark-teal-text {
+        color: #004d40;
+    } */
+
+    #brand {
+        color: white;
+    }
+}

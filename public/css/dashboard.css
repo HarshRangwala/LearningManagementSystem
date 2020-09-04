@@ -1,0 +1,30 @@
+.container {
+    margin-left: 250px;
+}
+
+
+div.container .row .col-sm-12 {
+
+    background: linear-gradient(75deg, white, antiquewhite);
+}
+
+div.container .row .col-sm-6 {
+    height: 40vh;
+    overflow-y: scroll;
+    background: transparent;
+}
+
+div.container .row .col-sm-6 .header {
+    /* height: 5rem;
+    background:linear-gradient(155deg,skyblue,darkblue); */
+    background-color: #861657;
+    background-image: linear-gradient(355deg, #861657 0%, #ffa69e 84%);
+
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        margin-left: 0;
+        width: 100%;
+    }
+}

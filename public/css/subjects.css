@@ -1,0 +1,64 @@
+/* body {
+
+
+    
+} */
+
+.container {
+    margin-left: 250px;
+}
+
+
+div.container .jumbotron {
+    background: linear-gradient(75deg,skyblue,darkblue);
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+div.container .row .col-sm-12{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+div.container .row .jumbotron b{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightyellow;
+}
+
+div.container .row .col-sm-4 {
+    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* 
+div.container .row .col-sm-4 .card {
+    background:;
+    
+} */
+
+div.container .row .card img {
+    height: 100px;
+    width: 100px;
+}
+
+div.container .row .col-sm-4 .card .card-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    background: transparent;
+}
+
+div.container .row {
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 40%;
+    }
+}
